@@ -37,6 +37,6 @@ CREATE TABLE `video`
   DEFAULT CHARSET = utf8mb4 COMMENT ='视频表';
 
 INSERT INTO `video`(id,userId, playUrl, coverUrl, favouriteCount, commentCount, title)
-    values(1,1, '/videos/firstVideo.MP4/', '/photos/firstPhoto.png/', 0, 0, '标题1');
+    values(1,1, 'videos/firstVideo.MP4/', 'photos/firstPhoto.png/', 0, 0, '标题1');
 # INSERT INTO `video`(userId, playUrl, coverUrl, favouriteCount, commentCount, title)
 #     values(2, 'http://yyy.com', 'http://xx.com', 0, 0, '标题2');

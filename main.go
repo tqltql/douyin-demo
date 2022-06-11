@@ -12,6 +12,7 @@ func main() {
 		os.Exit(-1)
 	}
 	r := gin.Default()
+	r.Static("/static", "./")
 
 	//douyinGroup := r.Group("/douyin")
 	//{
